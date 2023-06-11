@@ -3,12 +3,12 @@
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Avatars - Atlantis Lite Bootstrap 4 Admin Dashboard</title>
+  <title>SIMPKL POLITAP</title>
   <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
-  <link rel="icon" href="template/assets/img/icon.ico" type="image/x-icon" />
+  <link rel="icon" href="{{ url('template/assets/img/icon.ico') }}" type="image/x-icon" />
 
   <!-- Fonts and icons -->
-  <script src="template/assets/js/plugin/webfont/webfont.min.js"></script>
+  <script src="{{ url('template/assets/js/plugin/webfont/webfont.min.js') }}"></script>
   <script>
     WebFont.load({
       google: {
@@ -18,7 +18,7 @@
         "families": ["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands",
           "simple-line-icons"
         ],
-        urls: ['template/assets/css/fonts.min.css']
+        urls: ['{{ url('template/assets/css/fonts.min.css') }}']
       },
       active: function() {
         sessionStorage.fonts = true;
@@ -27,10 +27,10 @@
   </script>
 
   <!-- CSS Files -->
-  <link rel="stylesheet" href="template/assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="template/assets/css/atlantis.min.css">
+  <link rel="stylesheet" href="{{ url('template/assets/css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url('template/assets/css/atlantis.min.css') }}">
   <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link rel="stylesheet" href="template/assets/css/demo.css">
+  <link rel="stylesheet" href="{{ url('template/assets/css/demo.css') }}">
 </head>
 
 <body>
@@ -40,7 +40,7 @@
       <div class="logo-header" data-background-color="blue">
 
         <a href="../index.html" class="logo">
-          <img src="template/assets/img/logo.svg" alt="navbar brand" class="navbar-brand">
+          <img src="{{ url('template/assets/img/logo.svg') }}" alt="navbar brand" class="navbar-brand">
         </a>
         <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse"
           data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -93,19 +93,69 @@
     </div>
   </div>
   <!--   Core JS Files   -->
-  <script src="template/assets/js/core/jquery.3.2.1.min.js"></script>
-  <script src="template/assets/js/core/popper.min.js"></script>
-  <script src="template/assets/js/core/bootstrap.min.js"></script>
+  <script src="{{ url('template/assets/js/core/jquery.3.2.1.min.js') }}"></script>
+  <script src="{{ url('template/assets/js/core/popper.min.js') }}"></script>
+  <script src="{{ url('template/assets/js/core/bootstrap.min.js') }}"></script>
   <!-- jQuery UI -->
-  <script src="template/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
-  <script src="template/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+  <script src="{{ url('template/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js') }}"></script>
+  <script src="{{ url('template/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js') }}"></script>
 
   <!-- jQuery Scrollbar -->
-  <script src="template/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+  <script src="{{ url('template/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js') }}"></script>
+  <!-- Datatables -->
+  <script src="{{ url('template/assets/js/plugin/datatables/datatables.min.js') }}"></script>
   <!-- Atlantis JS -->
-  <script src="template/assets/js/atlantis.min.js"></script>
+  <script src="{{ url('template/assets/js/atlantis.min.js') }}"></script>
   <!-- Atlantis DEMO methods, don't include it in your project! -->
-  <script src="template/assets/js/setting-demo2.js"></script>
+  <script src="{{ url('template/assets/js/setting-demo2.js') }}"></script>
+  <script>
+    $(document).ready(function() {
+      $('#basic-datatables').DataTable({});
+
+      $('#multi-filter-select').DataTable({
+        "pageLength": 5,
+        initComplete: function() {
+          this.api().columns().every(function() {
+            var column = this;
+            var select = $('<select class="form-control"><option value=""></option></select>')
+              .appendTo($(column.footer()).empty())
+              .on('change', function() {
+                var val = $.fn.dataTable.util.escapeRegex(
+                  $(this).val()
+                );
+
+                column
+                  .search(val ? '^' + val + '$' : '', true, false)
+                  .draw();
+              });
+
+            column.data().unique().sort().each(function(d, j) {
+              select.append('<option value="' + d + '">' + d + '</option>')
+            });
+          });
+        }
+      });
+
+      // Add Row
+      $('#add-row').DataTable({
+        "pageLength": 5,
+      });
+
+      var action =
+        '<td> <div class="form-button-action"> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task"> <i class="fa fa-edit"></i> </button> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove"> <i class="fa fa-times"></i> </button> </div> </td>';
+
+      $('#addRowButton').click(function() {
+        $('#add-row').dataTable().fnAddData([
+          $("#addName").val(),
+          $("#addPosition").val(),
+          $("#addOffice").val(),
+          action
+        ]);
+        $('#addRowModal').modal('hide');
+
+      });
+    });
+  </script>
 </body>
 
 </html>
