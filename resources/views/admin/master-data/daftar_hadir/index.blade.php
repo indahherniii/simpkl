@@ -3,7 +3,7 @@
 @section('container')
   <div class="page-inner">
     <div class="page-header">
-      <h4 class="page-title">Data Instansi</h4>
+      <h4 class="page-title">Laporan Daftar Hadir</h4>
     </div>
     <div class="row">
 
@@ -12,10 +12,10 @@
         <div class="card">
           <div class="card-header">
             <div class="d-flex align-items-center">
-              <h4 class="card-title">Data Instansi</h4>
+              <h4 class="card-title">Laporan Daftar Hadir</h4>
               <button class="btn btn-primary btn-round ml-auto" data-toggle="modal" data-target="#addRowModal">
                 <i class="fa fa-plus"></i>
-                Tambah Instansi
+                Tambah Kehadiran
               </button>
             </div>
           </div>
@@ -29,7 +29,7 @@
                       <span class="fw-mediumbold">
                         Tambah</span>
                       <span class="fw-light">
-                        Instansi
+                        Kehadiran
                       </span>
                     </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -87,18 +87,6 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                                class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                                <i class="fa fa-info"></i>
-                              </button>
-                              <button type="button" data-toggle="tooltip" title=""
-                                class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                                <i class="fa fa-edit"></i>
-                              </button>
-                              <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                                data-original-title="Remove">
-                                <i class="fa fa-times"></i>
-                              </button> --}}
                         </div>
                     </td>
                     <td>3042020001</td>
@@ -112,18 +100,6 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-info"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-edit"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                              data-original-title="Remove">
-                              <i class="fa fa-times"></i>
-                            </button> --}}
                         </div>
                     </td>
                     <td>3042020002</td>
@@ -137,18 +113,6 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-info"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-edit"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                              data-original-title="Remove">
-                              <i class="fa fa-times"></i>
-                            </button> --}}
                         </div>
                     </td>
                     <td>3042020003</td>
@@ -162,18 +126,6 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-info"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-edit"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                              data-original-title="Remove">
-                              <i class="fa fa-times"></i>
-                            </button> --}}
                         </div>
                     </td>
                     <td>3042020004</td>
@@ -187,18 +139,6 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-info"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-edit"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                              data-original-title="Remove">
-                              <i class="fa fa-times"></i>
-                            </button> --}}
                         </div>
                     </td>
                     <td>3042020005</td>
@@ -212,18 +152,6 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-info"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-edit"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                              data-original-title="Remove">
-                              <i class="fa fa-times"></i>
-                            </button> --}}
                         </div>
                     </td>
                     <td>3042020006</td>
@@ -236,19 +164,6 @@
                         <div class="form-button-action">
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
-                          <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-info"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-edit"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                              data-original-title="Remove">
-                              <i class="fa fa-times"></i>
-                            </button> --}}
                         </div>
                     </td>
                     <td>3042020007</td>
@@ -262,18 +177,6 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                                class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                                <i class="fa fa-info"></i>
-                              </button>
-                              <button type="button" data-toggle="tooltip" title=""
-                                class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                                <i class="fa fa-edit"></i>
-                              </button>
-                              <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                                data-original-title="Remove">
-                                <i class="fa fa-times"></i>
-                              </button> --}}
                         </div>
                     </td>
                     <td>3042020008</td>
@@ -287,18 +190,6 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-info"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-edit"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                              data-original-title="Remove">
-                              <i class="fa fa-times"></i>
-                            </button> --}}
                         </div>
                     </td>
                     <td>3042020009</td>
@@ -312,18 +203,6 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-info"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-edit"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                              data-original-title="Remove">
-                              <i class="fa fa-times"></i>
-                            </button> --}}
                         </div>
                     </td>
                     <td>3042020010</td>

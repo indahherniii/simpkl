@@ -43,19 +43,19 @@
                         <div class="col-sm-12">
                           <div class="form-group form-group-default">
                             <label>NIM</label>
-                            <input id="addName" type="text" class="form-control" placeholder="fill name">
+                            <input id="addName" type="text" class="form-control" placeholder="isi nim">
                           </div>
                         </div>
                         <div class="col-md-6 pr-0">
                           <div class="form-group form-group-default">
                             <label>Nama</label>
-                            <input id="addPosition" type="text" class="form-control" placeholder="fill position">
+                            <input id="addPosition" type="text" class="form-control" placeholder="isi nama">
                           </div>
                         </div>
                         <div class="col-md-6">
                           <div class="form-group form-group-default">
                             <label>Jenis Kelamin</label>
-                            <input id="addOffice" type="text" class="form-control" placeholder="fill office">
+                            <input id="addOffice" type="text" class="form-control" placeholder="isi jenis kelamin">
                           </div>
                         </div>
                       </div>
@@ -79,185 +79,256 @@
                     <th>Jenis Kelamin</th>
                   </tr>
                 </thead>
-                <tfoot>
-                  <tr>
-                    <th>Aksi</th>
-                    <th>NIM</th>
-                    <th>Nama</th>
-                    <th>Jenis Kelamin</th>
-                  </tr>
-                </tfoot>
                 <tbody>
                   <tr>
                     <td>
                       <div class="form-button-action">
-                        <button type="button" data-toggle="tooltip" title=""
-                          class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                          <i class="fa fa-edit"></i>
-                        </button>
-                        <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                          data-original-title="Remove">
-                          <i class="fa fa-times"></i>
-                        </button>
-                      </div>
+                        <div class="form-button-action">
+                          <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
+                          <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
+                          <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
+                          {{-- <button type="button" data-toggle="tooltip" title=""
+                                class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                                <i class="fa fa-info"></i>
+                              </button>
+                              <button type="button" data-toggle="tooltip" title=""
+                                class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                                <i class="fa fa-edit"></i>
+                              </button>
+                              <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
+                                data-original-title="Remove">
+                                <i class="fa fa-times"></i>
+                              </button> --}}
+                        </div>
                     </td>
-                    <td>Tiger Nixon</td>
-                    <td>System Architect</td>
-                    <td>Edinburgh</td>
+                    <td>3042020001</td>
+                    <td>Herdianti Norlita </td>
+                    <td>Perempuan</td>
                   </tr>
                   <tr>
                     <td>
                       <div class="form-button-action">
-                        <button type="button" data-toggle="tooltip" title=""
-                          class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                          <i class="fa fa-edit"></i>
-                        </button>
-                        <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                          data-original-title="Remove">
-                          <i class="fa fa-times"></i>
-                        </button>
-                      </div>
+                        <div class="form-button-action">
+                          <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
+                          <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
+                          <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
+                          {{-- <button type="button" data-toggle="tooltip" title=""
+                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                              <i class="fa fa-info"></i>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title=""
+                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                              <i class="fa fa-edit"></i>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
+                              data-original-title="Remove">
+                              <i class="fa fa-times"></i>
+                            </button> --}}
+                        </div>
                     </td>
-                    <td>Garrett Winters</td>
-                    <td>Accountant</td>
-                    <td>Tokyo</td>
+                    <td>3042020002</td>
+                    <td>Tira Tariska</td>
+                    <td>Perempuan</td>
                   </tr>
                   <tr>
                     <td>
                       <div class="form-button-action">
-                        <button type="button" data-toggle="tooltip" title=""
-                          class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                          <i class="fa fa-edit"></i>
-                        </button>
-                        <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                          data-original-title="Remove">
-                          <i class="fa fa-times"></i>
-                        </button>
-                      </div>
+                        <div class="form-button-action">
+                          <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
+                          <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
+                          <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
+                          {{-- <button type="button" data-toggle="tooltip" title=""
+                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                              <i class="fa fa-info"></i>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title=""
+                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                              <i class="fa fa-edit"></i>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
+                              data-original-title="Remove">
+                              <i class="fa fa-times"></i>
+                            </button> --}}
+                        </div>
                     </td>
-                    <td>Ashton Cox</td>
-                    <td>Junior Technical Author</td>
-                    <td>San Francisco</td>
+                    <td>3042020003</td>
+                    <td>Elis Sulistia Sudrajat</td>
+                    <td>Perempuan</td>
                   </tr>
                   <tr>
                     <td>
                       <div class="form-button-action">
-                        <button type="button" data-toggle="tooltip" title=""
-                          class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                          <i class="fa fa-edit"></i>
-                        </button>
-                        <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                          data-original-title="Remove">
-                          <i class="fa fa-times"></i>
-                        </button>
-                      </div>
+                        <div class="form-button-action">
+                          <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
+                          <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
+                          <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
+                          {{-- <button type="button" data-toggle="tooltip" title=""
+                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                              <i class="fa fa-info"></i>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title=""
+                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                              <i class="fa fa-edit"></i>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
+                              data-original-title="Remove">
+                              <i class="fa fa-times"></i>
+                            </button> --}}
+                        </div>
                     </td>
-                    <td>Cedric Kelly</td>
-                    <td>Senior Javascript Developer</td>
-                    <td>Edinburgh</td>
+                    <td>3042020004</td>
+                    <td>Indah Putri Herni</td>
+                    <td>Perempuan</td>
                   </tr>
                   <tr>
                     <td>
                       <div class="form-button-action">
-                        <button type="button" data-toggle="tooltip" title=""
-                          class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                          <i class="fa fa-edit"></i>
-                        </button>
-                        <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                          data-original-title="Remove">
-                          <i class="fa fa-times"></i>
-                        </button>
-                      </div>
+                        <div class="form-button-action">
+                          <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
+                          <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
+                          <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
+                          {{-- <button type="button" data-toggle="tooltip" title=""
+                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                              <i class="fa fa-info"></i>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title=""
+                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                              <i class="fa fa-edit"></i>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
+                              data-original-title="Remove">
+                              <i class="fa fa-times"></i>
+                            </button> --}}
+                        </div>
                     </td>
-                    <td>Airi Satou</td>
-                    <td>Accountant</td>
-                    <td>Tokyo</td>
+                    <td>3042020005</td>
+                    <td>Dea Marwan</td>
+                    <td>Perempuan</td>
                   </tr>
                   <tr>
                     <td>
                       <div class="form-button-action">
-                        <button type="button" data-toggle="tooltip" title=""
-                          class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                          <i class="fa fa-edit"></i>
-                        </button>
-                        <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                          data-original-title="Remove">
-                          <i class="fa fa-times"></i>
-                        </button>
-                      </div>
+                        <div class="form-button-action">
+                          <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
+                          <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
+                          <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
+                          {{-- <button type="button" data-toggle="tooltip" title=""
+                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                              <i class="fa fa-info"></i>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title=""
+                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                              <i class="fa fa-edit"></i>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
+                              data-original-title="Remove">
+                              <i class="fa fa-times"></i>
+                            </button> --}}
+                        </div>
                     </td>
-                    <td>Brielle Williamson</td>
-                    <td>Integration Specialist</td>
-                    <td>New York</td>
+                    <td>3042020006</td>
+                    <td>Aria Agus Riadi</td>
+                    <td>Laki-laki</td>
                   </tr>
                   <tr>
                     <td>
                       <div class="form-button-action">
-                        <button type="button" data-toggle="tooltip" title=""
-                          class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                          <i class="fa fa-edit"></i>
-                        </button>
-                        <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                          data-original-title="Remove">
-                          <i class="fa fa-times"></i>
-                        </button>
-                      </div>
+                        <div class="form-button-action">
+                          <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
+                          <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
+                          <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
+                          {{-- <button type="button" data-toggle="tooltip" title=""
+                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                              <i class="fa fa-info"></i>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title=""
+                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                              <i class="fa fa-edit"></i>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
+                              data-original-title="Remove">
+                              <i class="fa fa-times"></i>
+                            </button> --}}
+                        </div>
                     </td>
-                    <td>Herrod Chandler</td>
-                    <td>Sales Assistant</td>
-                    <td>San Francisco</td>
+                    <td>3042020007</td>
+                    <td>Veni Kusuma Wulandari</td>
+                    <td>Perempuan</td>
                   </tr>
                   <tr>
                     <td>
                       <div class="form-button-action">
-                        <button type="button" data-toggle="tooltip" title=""
-                          class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                          <i class="fa fa-edit"></i>
-                        </button>
-                        <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                          data-original-title="Remove">
-                          <i class="fa fa-times"></i>
-                        </button>
-                      </div>
+                        <div class="form-button-action">
+                          <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
+                          <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
+                          <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
+                          {{-- <button type="button" data-toggle="tooltip" title=""
+                                class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                                <i class="fa fa-info"></i>
+                              </button>
+                              <button type="button" data-toggle="tooltip" title=""
+                                class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                                <i class="fa fa-edit"></i>
+                              </button>
+                              <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
+                                data-original-title="Remove">
+                                <i class="fa fa-times"></i>
+                              </button> --}}
+                        </div>
                     </td>
-                    <td>Rhona Davidson</td>
-                    <td>Integration Specialist</td>
-                    <td>Tokyo</td>
+                    <td>3042020008</td>
+                    <td>Jalal Oka Saputra</td>
+                    <td>Laki-laki</td>
                   </tr>
                   <tr>
                     <td>
                       <div class="form-button-action">
-                        <button type="button" data-toggle="tooltip" title=""
-                          class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                          <i class="fa fa-edit"></i>
-                        </button>
-                        <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                          data-original-title="Remove">
-                          <i class="fa fa-times"></i>
-                        </button>
-                      </div>
+                        <div class="form-button-action">
+                          <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
+                          <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
+                          <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
+                          {{-- <button type="button" data-toggle="tooltip" title=""
+                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                              <i class="fa fa-info"></i>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title=""
+                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                              <i class="fa fa-edit"></i>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
+                              data-original-title="Remove">
+                              <i class="fa fa-times"></i>
+                            </button> --}}
+                        </div>
                     </td>
-                    <td>Colleen Hurst</td>
-                    <td>Javascript Developer</td>
-                    <td>San Francisco</td>
+                    <td>3042020009</td>
+                    <td>Fenniliyana</td>
+                    <td>Perempuan</td>
                   </tr>
                   <tr>
                     <td>
                       <div class="form-button-action">
-                        <button type="button" data-toggle="tooltip" title=""
-                          class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                          <i class="fa fa-edit"></i>
-                        </button>
-                        <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                          data-original-title="Remove">
-                          <i class="fa fa-times"></i>
-                        </button>
-                      </div>
+                        <div class="form-button-action">
+                          <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
+                          <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
+                          <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
+                          {{-- <button type="button" data-toggle="tooltip" title=""
+                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                              <i class="fa fa-info"></i>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title=""
+                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                              <i class="fa fa-edit"></i>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
+                              data-original-title="Remove">
+                              <i class="fa fa-times"></i>
+                            </button> --}}
+                        </div>
                     </td>
-                    <td>Sonya Frost</td>
-                    <td>Software Engineer</td>
-                    <td>Edinburgh</td>
-
+                    <td>3042020010</td>
+                    <td>Dela Sagita</td>
+                    <td>Perempuan</td>
                   </tr>
                 </tbody>
               </table>
