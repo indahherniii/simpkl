@@ -17,7 +17,7 @@
                     class="avatar-img rounded"></div>
                 <div class="u-text">
                   <h4>Indah Putri Herni</h4>
-                  <p class="text-muted">ADMIN</p>
+                  <p class="text-muted">Mahasiswa</p>
                 </div>
               </div>
             </li>
