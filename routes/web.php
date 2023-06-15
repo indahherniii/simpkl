@@ -37,12 +37,12 @@ Route::get('/admin/daftar_hadir', function () {
     return view('admin.master-data.daftar_hadir.index');
 });
 
-Route::get('/profile', function () {
-    return view('admin.profile.edit');
+Route::get('/admin/profile', function () {
+    return view('admin.profile.index');
 });
 
-Route::get('/profile', function () {
-    return view('admin.profile.index');
+Route::get('/admin/profile/edit', function () {
+    return view('admin.profile.edit');
 });
 
 // Mahasiswa
@@ -57,4 +57,20 @@ Route::get('/mahasiswa/persyaratan', function () {
 
 Route::get('/mahasiswa/lowongan', function () {
     return view('mahasiswa.lowongan.index');
+});
+
+Route::get('/mahasiswa/pkl', function () {
+    return view('mahasiswa.pkl.index');
+});
+
+Route::get('/mahasiswa/instansi', function () {
+    return view('mahasiswa.instansi.index');
+});
+
+Route::get('/mahasiswa/profile', function () {
+    return view('mahasiswa.profile.edit');
+});
+
+Route::get('/mahasiswa/profile/edit', function () {
+    return view('mahasiswa.profile.edit');
 });

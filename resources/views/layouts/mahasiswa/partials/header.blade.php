@@ -23,7 +23,7 @@
             </li>
             <li>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="{{ url('profile') }}">My Profile</a>
+              <a class="dropdown-item" href="{{ url('mahasiswa/profile') }}">My Profile</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Logout</a>
             </li>
