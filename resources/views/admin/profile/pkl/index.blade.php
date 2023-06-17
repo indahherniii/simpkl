@@ -3,7 +3,7 @@
 @section('container')
   <div class="page-inner">
     <div class="page-header">
-      <h4 class="page-title">Data Dosen</h4>
+      <h4 class="page-title">Data PKL</h4>
     </div>
     <div class="row">
 
@@ -12,10 +12,10 @@
         <div class="card">
           <div class="card-header">
             <div class="d-flex align-items-center">
-              <h4 class="card-title">Data Dosen</h4>
+              <h4 class="card-title">Data PKL</h4>
               <button class="btn btn-primary btn-round ml-auto" data-toggle="modal" data-target="#addRowModal">
                 <i class="fa fa-plus"></i>
-                Tambah Dosen
+                Tambah PKL
               </button>
             </div>
           </div>
@@ -29,7 +29,7 @@
                       <span class="fw-mediumbold">
                         Tambah</span>
                       <span class="fw-light">
-                        Dosen
+                        PKL
                       </span>
                     </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">

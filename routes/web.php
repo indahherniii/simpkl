@@ -13,8 +13,8 @@ Route::get('/admin/mahasiswa', function () {
     return view('admin.master-data.mahasiswa.index');
 });
 
-Route::get('/admin/dosen', function () {
-    return view('admin.master-data.dosen.index');
+Route::get('/admin/pegawai', function () {
+    return view('admin.master-data.pegawai.index');
 });
 
 Route::get('/admin/jurusan', function () {

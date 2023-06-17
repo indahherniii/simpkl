@@ -3,7 +3,7 @@
 @section('container')
   <div class="page-inner">
     <div class="page-header">
-      <h4 class="page-title">Data Instansi</h4>
+      <h4 class="page-title">Instansi</h4>
     </div>
     <div class="row">
 
@@ -42,20 +42,20 @@
                       <div class="row">
                         <div class="col-sm-12">
                           <div class="form-group form-group-default">
-                            <label>NIM</label>
-                            <input id="addName" type="text" class="form-control" placeholder="isi nim">
+                            <label>Nama PT</label>
+                            <input id="addName" type="text" class="form-control" placeholder="isi nama pt">
                           </div>
                         </div>
                         <div class="col-md-6 pr-0">
                           <div class="form-group form-group-default">
-                            <label>Nama</label>
-                            <input id="addPosition" type="text" class="form-control" placeholder="isi nama">
+                            <label>Alamat</label>
+                            <input id="addPosition" type="text" class="form-control" placeholder="isi alamat">
                           </div>
                         </div>
                         <div class="col-md-6">
                           <div class="form-group form-group-default">
-                            <label>Jenis Kelamin</label>
-                            <input id="addOffice" type="text" class="form-control" placeholder="isi jenis kelamin">
+                            <label>Email</label>
+                            <input id="addOffice" type="text" class="form-control" placeholder="isi email">
                           </div>
                         </div>
                       </div>
@@ -74,9 +74,9 @@
                 <thead>
                   <tr>
                     <th style="width: 10%">Aksi</th>
-                    <th>NIM</th>
-                    <th>Nama</th>
-                    <th>Jenis Kelamin</th>
+                    <th>Nama PT</th>
+                    <th>Alamat</th>
+                    <th>Email</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -89,9 +89,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>3042020001</td>
-                    <td>Herdianti Norlita </td>
-                    <td>Perempuan</td>
+                    <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
+                    <td>Jalan Letkol M. Tohir Mo 25 </td>
+                    <td>www.pln.co.id</td>
                   </tr>
                   <tr>
                     <td>
@@ -100,23 +100,11 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-info"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-edit"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                              data-original-title="Remove">
-                              <i class="fa fa-times"></i>
-                            </button> --}}
                         </div>
                     </td>
-                    <td>3042020002</td>
-                    <td>Tira Tariska</td>
-                    <td>Perempuan</td>
+                    <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
+                    <td>Jalan Letkol M. Tohir Mo 25 </td>
+                    <td>www.pln.co.id</td>
                   </tr>
                   <tr>
                     <td>
@@ -125,23 +113,11 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-info"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-edit"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                              data-original-title="Remove">
-                              <i class="fa fa-times"></i>
-                            </button> --}}
                         </div>
                     </td>
-                    <td>3042020003</td>
-                    <td>Elis Sulistia Sudrajat</td>
-                    <td>Perempuan</td>
+                    <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
+                    <td>Jalan Letkol M. Tohir Mo 25 </td>
+                    <td>www.pln.co.id</td>
                   </tr>
                   <tr>
                     <td>
@@ -150,23 +126,11 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-info"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-edit"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                              data-original-title="Remove">
-                              <i class="fa fa-times"></i>
-                            </button> --}}
                         </div>
                     </td>
-                    <td>3042020004</td>
-                    <td>Indah Putri Herni</td>
-                    <td>Perempuan</td>
+                    <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
+                    <td>Jalan Letkol M. Tohir Mo 25 </td>
+                    <td>www.pln.co.id</td>
                   </tr>
                   <tr>
                     <td>
@@ -175,23 +139,11 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-info"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-edit"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                              data-original-title="Remove">
-                              <i class="fa fa-times"></i>
-                            </button> --}}
                         </div>
                     </td>
-                    <td>3042020005</td>
-                    <td>Dea Marwan</td>
-                    <td>Perempuan</td>
+                    <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
+                    <td>Jalan Letkol M. Tohir Mo 25 </td>
+                    <td>www.pln.co.id</td>
                   </tr>
                   <tr>
                     <td>
@@ -200,23 +152,11 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-info"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-edit"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                              data-original-title="Remove">
-                              <i class="fa fa-times"></i>
-                            </button> --}}
                         </div>
                     </td>
-                    <td>3042020006</td>
-                    <td>Aria Agus Riadi</td>
-                    <td>Laki-laki</td>
+                    <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
+                    <td>Jalan Letkol M. Tohir Mo 25 </td>
+                    <td>www.pln.co.id</td>
                   </tr>
                   <tr>
                     <td>
@@ -225,23 +165,11 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-info"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-edit"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                              data-original-title="Remove">
-                              <i class="fa fa-times"></i>
-                            </button> --}}
                         </div>
                     </td>
-                    <td>3042020007</td>
-                    <td>Veni Kusuma Wulandari</td>
-                    <td>Perempuan</td>
+                    <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
+                    <td>Jalan Letkol M. Tohir Mo 25 </td>
+                    <td>www.pln.co.id</td>
                   </tr>
                   <tr>
                     <td>
@@ -250,23 +178,11 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                                class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                                <i class="fa fa-info"></i>
-                              </button>
-                              <button type="button" data-toggle="tooltip" title=""
-                                class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                                <i class="fa fa-edit"></i>
-                              </button>
-                              <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                                data-original-title="Remove">
-                                <i class="fa fa-times"></i>
-                              </button> --}}
                         </div>
                     </td>
-                    <td>3042020008</td>
-                    <td>Jalal Oka Saputra</td>
-                    <td>Laki-laki</td>
+                    <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
+                    <td>Jalan Letkol M. Tohir Mo 25 </td>
+                    <td>www.pln.co.id</td>
                   </tr>
                   <tr>
                     <td>
@@ -275,23 +191,11 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-info"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-edit"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                              data-original-title="Remove">
-                              <i class="fa fa-times"></i>
-                            </button> --}}
                         </div>
                     </td>
-                    <td>3042020009</td>
-                    <td>Fenniliyana</td>
-                    <td>Perempuan</td>
+                    <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
+                    <td>Jalan Letkol M. Tohir Mo 25 </td>
+                    <td>www.pln.co.id</td>
                   </tr>
                   <tr>
                     <td>
@@ -300,23 +204,11 @@
                           <a href="#" class="btn btn-sm btn-dark"><i class="fa fa-info"></i></a>
                           <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          {{-- <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-info"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title=""
-                              class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                              <i class="fa fa-edit"></i>
-                            </button>
-                            <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger"
-                              data-original-title="Remove">
-                              <i class="fa fa-times"></i>
-                            </button> --}}
                         </div>
                     </td>
-                    <td>3042020010</td>
-                    <td>Dela Sagita</td>
-                    <td>Perempuan</td>
+                    <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
+                    <td>Jalan Letkol M. Tohir Mo 25 </td>
+                    <td>www.pln.co.id</td>
                   </tr>
                 </tbody>
               </table>

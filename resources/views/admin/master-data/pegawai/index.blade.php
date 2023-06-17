@@ -3,7 +3,7 @@
 @section('container')
   <div class="page-inner">
     <div class="page-header">
-      <h4 class="page-title">Kegiatan Harian</h4>
+      <h4 class="page-title">Pegawai</h4>
     </div>
     <div class="row">
 
@@ -12,10 +12,10 @@
         <div class="card">
           <div class="card-header">
             <div class="d-flex align-items-center">
-              <h4 class="card-title">Laporan Kegiatan Harian</h4>
+              <h4 class="card-title">Data Pegawai</h4>
               <button class="btn btn-primary btn-round ml-auto" data-toggle="modal" data-target="#addRowModal">
                 <i class="fa fa-plus"></i>
-                Tambah Kegiatan
+                Tambah Pegawai
               </button>
             </div>
           </div>
@@ -29,7 +29,7 @@
                       <span class="fw-mediumbold">
                         Tambah</span>
                       <span class="fw-light">
-                        Kegiatan
+                        Pegawai
                       </span>
                     </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -42,20 +42,20 @@
                       <div class="row">
                         <div class="col-sm-12">
                           <div class="form-group form-group-default">
-                            <label>NIM</label>
-                            <input id="addName" type="text" class="form-control" placeholder="isi nim">
+                            <label>Nama</label>
+                            <input id="addName" type="text" class="form-control" placeholder="isi nama">
                           </div>
                         </div>
                         <div class="col-md-6 pr-0">
                           <div class="form-group form-group-default">
-                            <label>Nama</label>
-                            <input id="addPosition" type="text" class="form-control" placeholder="isi nama">
+                            <label>Unit Kerja</label>
+                            <input id="addPosition" type="text" class="form-control" placeholder="isi unit kerja">
                           </div>
                         </div>
                         <div class="col-md-6">
                           <div class="form-group form-group-default">
-                            <label>Jenis Kelamin</label>
-                            <input id="addOffice" type="text" class="form-control" placeholder="isi jenis kelamin">
+                            <label>Username</label>
+                            <input id="addOffice" type="text" class="form-control" placeholder="isi username">
                           </div>
                         </div>
                       </div>
@@ -68,15 +68,14 @@
                 </div>
               </div>
             </div>
-
             <div class="table-responsive">
               <table id="add-row" class="display table table-striped table-hover">
                 <thead>
                   <tr>
                     <th style="width: 10%">Aksi</th>
-                    <th>NIM</th>
                     <th>Nama</th>
-                    <th>Jenis Kelamin</th>
+                    <th>Unit Kerja</th>
+                    <th>Username</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -89,9 +88,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>3042020001</td>
-                    <td>Herdianti Norlita </td>
-                    <td>Perempuan</td>
+                    <td>Eka Wahyudi</td>
+                    <td>Prodi D3 Teknologi Informasi</td>
+                    <td>ekawahyudi</td>
                   </tr>
                   <tr>
                     <td>
@@ -102,9 +101,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>3042020002</td>
-                    <td>Tira Tariska</td>
-                    <td>Perempuan</td>
+                    <td>Saifudin Usman</td>
+                    <td>Prodi D3 Teknologi Informasi</td>
+                    <td>saifudinusman</td>
                   </tr>
                   <tr>
                     <td>
@@ -115,9 +114,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>3042020003</td>
-                    <td>Elis Sulistia Sudrajat</td>
-                    <td>Perempuan</td>
+                    <td>Aprianda Ibrahim</td>
+                    <td>Prodi D3 Teknologi Informasi</td>
+                    <td>apriandaibrahim</td>
                   </tr>
                   <tr>
                     <td>
@@ -128,9 +127,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>3042020004</td>
-                    <td>Indah Putri Herni</td>
-                    <td>Perempuan</td>
+                    <td>Ar-Razy Muhammad</td>
+                    <td>Prodi D3 Teknologi Informasi</td>
+                    <td>arrazymuhammad</td>
                   </tr>
                   <tr>
                     <td>
@@ -141,9 +140,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>3042020005</td>
-                    <td>Dea Marwan</td>
-                    <td>Perempuan</td>
+                    <td>Rustiarni</td>
+                    <td>Prodi D3 Teknologi Informasi</td>
+                    <td>rustiarni</td>
                   </tr>
                   <tr>
                     <td>
@@ -154,9 +153,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>3042020006</td>
-                    <td>Aria Agus Riadi</td>
-                    <td>Laki-laki</td>
+                    <td>Ani Mawar</td>
+                    <td>Prodi D3 Teknik Elektro</td>
+                    <td>mawarani</td>
                   </tr>
                   <tr>
                     <td>
@@ -167,9 +166,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>3042020007</td>
-                    <td>Veni Kusuma Wulandari</td>
-                    <td>Perempuan</td>
+                    <td>Andiawan</td>
+                    <td>Prodi D3 Teknologi Pengolahan Hasil Perkebunan</td>
+                    <td>andiawan</td>
                   </tr>
                   <tr>
                     <td>
@@ -180,9 +179,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>3042020008</td>
-                    <td>Jalal Oka Saputra</td>
-                    <td>Laki-laki</td>
+                    <td>Suryati</td>
+                    <td>Prodi D3 Teknologi Listrik </td>
+                    <td>suryati</td>
                   </tr>
                   <tr>
                     <td>
@@ -193,9 +192,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>3042020009</td>
-                    <td>Fenniliyana</td>
-                    <td>Perempuan</td>
+                    <td>Suryadi</td>
+                    <td>Agroindustri</td>
+                    <td>suryadi</td>
                   </tr>
                   <tr>
                     <td>
@@ -206,9 +205,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>3042020010</td>
-                    <td>Dela Sagita</td>
-                    <td>Perempuan</td>
+                    <td>Rina Nala</td>
+                    <td>Prodi D4 Teknik Sipil</td>
+                    <td>rinanala</td>
                   </tr>
                 </tbody>
               </table>

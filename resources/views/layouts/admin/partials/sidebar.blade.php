@@ -29,8 +29,8 @@
                 </a>
               </li>
               <li>
-                <a href="{{ url('admin/dosen') }}">
-                  <span class="sub-item">Dosen</span>
+                <a href="{{ url('admin/pegawai') }}">
+                  <span class="sub-item">Pegawai</span>
                 </a>
               </li>
             </ul>
