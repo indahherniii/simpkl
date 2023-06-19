@@ -75,11 +75,6 @@
                   <span class="sub-item">Kegiatan Harian</span>
                 </a>
               </li>
-              <li class="{{ Request::is('admin/daftar_hadir') ? 'active' : '' }}">
-                <a href="{{ url('admin/daftar_hadir') }}">
-                  <span class="sub-item">Daftar Hadir</span>
-                </a>
-              </li>
             </ul>
           </div>
         </li>

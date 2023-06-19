@@ -13,6 +13,10 @@ Route::get('/admin/mahasiswa', function () {
     return view('admin.master-data.mahasiswa.index');
 });
 
+Route::get('/admin/mahasiswa/create', function () {
+    return view('admin.master-data.mahasiswa.create');
+});
+
 Route::get('/admin/pegawai', function () {
     return view('admin.master-data.pegawai.index');
 });
@@ -25,16 +29,24 @@ Route::get('/admin/instansi', function () {
     return view('admin.master-data.instansi.index');
 });
 
+Route::get('/admin/instansi/create', function () {
+    return view('admin.master-data.instansi.create');
+});
+
 Route::get('/admin/pkl', function () {
     return view('admin.master-data.pkl.index');
+});
+
+Route::get('/admin/pkl/create', function () {
+    return view('admin.master-data.pkl.create');
 });
 
 Route::get('/admin/kegiatan_harian', function () {
     return view('admin.master-data.kegiatan_harian.index');
 });
 
-Route::get('/admin/daftar_hadir', function () {
-    return view('admin.master-data.daftar_hadir.index');
+Route::get('/admin/kegiatan_harian/create', function () {
+    return view('admin.master-data.kegiatan_harian.create');
 });
 
 Route::get('/admin/profile', function () {

@@ -11,12 +11,14 @@
       <div class="col-md-12">
         <div class="card">
           <div class="card-header">
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center justify-content-between">
               <h4 class="card-title">Data Pegawai</h4>
-              <button class="btn btn-primary btn-round ml-auto" data-toggle="modal" data-target="#addRowModal">
-                <i class="fa fa-plus"></i>
+              <a href="{{ url('/admin/instansi/create') }}" class="btn btn-primary">
+                <span class="btn-label">
+                  <i class="fa fa-plus"></i>
+                </span>
                 Tambah Pegawai
-              </button>
+              </a>
             </div>
           </div>
           <div class="card-body">
