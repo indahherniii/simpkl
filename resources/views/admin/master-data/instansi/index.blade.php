@@ -56,7 +56,7 @@
                         </div>
                         <div class="col-md-6">
                           <div class="form-group form-group-default">
-                            <label>Email</label>
+                            <label>Jumlah Lowongan</label>
                             <input id="addOffice" type="text" class="form-control" placeholder="isi email">
                           </div>
                         </div>
@@ -78,7 +78,7 @@
                     <th style="width: 10%">Aksi</th>
                     <th>Nama PT</th>
                     <th>Alamat</th>
-                    <th>Email</th>
+                    <th>Jumlah Lowongan</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -93,7 +93,7 @@
                     </td>
                     <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
                     <td>Jalan Letkol M. Tohir Mo 25 </td>
-                    <td>www.pln.co.id</td>
+                    <td>1</td>
                   </tr>
                   <tr>
                     <td>
@@ -106,7 +106,7 @@
                     </td>
                     <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
                     <td>Jalan Letkol M. Tohir Mo 25 </td>
-                    <td>www.pln.co.id</td>
+                    <td>2</td>
                   </tr>
                   <tr>
                     <td>
@@ -119,7 +119,7 @@
                     </td>
                     <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
                     <td>Jalan Letkol M. Tohir Mo 25 </td>
-                    <td>www.pln.co.id</td>
+                    <td>3</td>
                   </tr>
                   <tr>
                     <td>
@@ -132,7 +132,7 @@
                     </td>
                     <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
                     <td>Jalan Letkol M. Tohir Mo 25 </td>
-                    <td>www.pln.co.id</td>
+                    <td>4</td>
                   </tr>
                   <tr>
                     <td>
@@ -145,7 +145,7 @@
                     </td>
                     <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
                     <td>Jalan Letkol M. Tohir Mo 25 </td>
-                    <td>www.pln.co.id</td>
+                    <td>5</td>
                   </tr>
                   <tr>
                     <td>
@@ -158,7 +158,7 @@
                     </td>
                     <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
                     <td>Jalan Letkol M. Tohir Mo 25 </td>
-                    <td>www.pln.co.id</td>
+                    <td>6</td>
                   </tr>
                   <tr>
                     <td>
@@ -171,7 +171,7 @@
                     </td>
                     <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
                     <td>Jalan Letkol M. Tohir Mo 25 </td>
-                    <td>www.pln.co.id</td>
+                    <td>7</td>
                   </tr>
                   <tr>
                     <td>
@@ -184,7 +184,7 @@
                     </td>
                     <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
                     <td>Jalan Letkol M. Tohir Mo 25 </td>
-                    <td>www.pln.co.id</td>
+                    <td>8</td>
                   </tr>
                   <tr>
                     <td>
@@ -197,7 +197,7 @@
                     </td>
                     <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
                     <td>Jalan Letkol M. Tohir Mo 25 </td>
-                    <td>www.pln.co.id</td>
+                    <td>9</td>
                   </tr>
                   <tr>
                     <td>
@@ -210,7 +210,7 @@
                     </td>
                     <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
                     <td>Jalan Letkol M. Tohir Mo 25 </td>
-                    <td>www.pln.co.id</td>
+                    <td>10</td>
                   </tr>
                 </tbody>
               </table>

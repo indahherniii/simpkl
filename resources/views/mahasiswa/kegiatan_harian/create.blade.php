@@ -1,4 +1,4 @@
-@extends('layouts.admin.main')
+@extends('layouts.mahasiswa.main')
 
 @section('container')
   <div class="page-inner">

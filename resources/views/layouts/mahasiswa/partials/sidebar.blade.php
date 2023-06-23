@@ -33,6 +33,12 @@
             <p>Instansi</p>
           </a>
         </li>
+        <li class="nav-item {{ Request::is('mahasiswa/kegiatan_harian') ? 'active' : '' }}">
+          <a class="nav-link" href="{{ url('mahasiswa/kegiatan_harian') }}">
+            <i class="fas fa-clipboard"></i>
+            <p>Kegiatan Harian</p>
+          </a>
+        </li>
       </ul>
     </div>
   </div>

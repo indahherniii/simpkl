@@ -86,3 +86,12 @@ Route::get('/mahasiswa/profile', function () {
 Route::get('/mahasiswa/profile/edit', function () {
     return view('mahasiswa.profile.edit');
 });
+
+Route::get('/mahasiswa/kegiatan_harian/', function () {
+    return view('mahasiswa.kegiatan_harian.index');
+});
+
+Route::get('/mahasiswa/kegiatan_harian/create', function () {
+    return view('mahasiswa.kegiatan_harian.create');
+});
+

@@ -44,19 +44,19 @@
                       <div class="row">
                         <div class="col-sm-12">
                           <div class="form-group form-group-default">
-                            <label>NIM</label>
+                            <label>Bidang</label>
                             <input id="addName" type="text" class="form-control" placeholder="isi nim">
                           </div>
                         </div>
                         <div class="col-md-6 pr-0">
                           <div class="form-group form-group-default">
-                            <label>Nama</label>
+                            <label>Tempat PKL</label>
                             <input id="addPosition" type="text" class="form-control" placeholder="isi nama">
                           </div>
                         </div>
                         <div class="col-md-6">
                           <div class="form-group form-group-default">
-                            <label>Tempat PKL</label>
+                            <label>Kuota</label>
                             <input id="addOffice" type="text" class="form-control" placeholder="isi tempat pkl">
                           </div>
                         </div>
@@ -75,9 +75,9 @@
                 <thead>
                   <tr>
                     <th style="width: 10%">Aksi</th>
-                    <th>NIM</th>
-                    <th>Nama</th>
+                    <th>Bidang</th>
                     <th>Tempat PKL</th>
+                    <th>Kuota</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -90,9 +90,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>Indah Putri Herni</td>
-                    <td>3042020004</td>
+                    <td>Informatika</td>
                     <td>PT PLN (Persero) UP3 Ketapang</td>
+                    <td>1</td>
                   </tr>
                   <tr>
                     <td>
@@ -103,9 +103,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>Indah Putri Herni</td>
-                    <td>3042020004</td>
+                    <td>Informatika</td>
                     <td>PT PLN (Persero) UP3 Ketapang</td>
+                    <td>1</td>
                   </tr>
                   <tr>
                     <td>
@@ -116,9 +116,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>Indah Putri Herni</td>
-                    <td>3042020004</td>
+                    <td>Informatika</td>
                     <td>PT PLN (Persero) UP3 Ketapang</td>
+                    <td>1</td>
                   </tr>
                   <tr>
                     <td>
@@ -129,9 +129,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>Indah Putri Herni</td>
-                    <td>3042020004</td>
+                    <td>Informatika</td>
                     <td>PT PLN (Persero) UP3 Ketapang</td>
+                    <td>1</td>
                   </tr>
                   <tr>
                     <td>
@@ -142,9 +142,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>Indah Putri Herni</td>
-                    <td>3042020004</td>
+                    <td>Informatika</td>
                     <td>PT PLN (Persero) UP3 Ketapang</td>
+                    <td>1</td>
                   </tr>
                   <tr>
                     <td>
@@ -155,9 +155,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>Indah Putri Herni</td>
-                    <td>3042020004</td>
+                    <td>Informatika</td>
                     <td>PT PLN (Persero) UP3 Ketapang</td>
+                    <td>1</td>
                   </tr>
                   <tr>
                     <td>
@@ -168,9 +168,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>Indah Putri Herni</td>
-                    <td>3042020004</td>
+                    <td>Informatika</td>
                     <td>PT PLN (Persero) UP3 Ketapang</td>
+                    <td>1</td>
                   </tr>
                   <tr>
                     <td>
@@ -181,9 +181,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>Indah Putri Herni</td>
-                    <td>3042020004</td>
+                    <td>Informatika</td>
                     <td>PT PLN (Persero) UP3 Ketapang</td>
+                    <td>1</td>
                   </tr>
                   <tr>
                     <td>
@@ -194,9 +194,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>Indah Putri Herni</td>
-                    <td>3042020004</td>
+                    <td>Informatika</td>
                     <td>PT PLN (Persero) UP3 Ketapang</td>
+                    <td>1</td>
                   </tr>
                   <tr>
                     <td>
@@ -207,9 +207,9 @@
                           <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
-                    <td>Indah Putri Herni</td>
-                    <td>3042020004</td>
+                    <td>Informatika</td>
                     <td>PT PLN (Persero) UP3 Ketapang</td>
+                    <td>1</td>
                   </tr>
                 </tbody>
               </table>

@@ -1,7 +1,6 @@
 <nav class="navbar navbar-header navbar-expand-lg navbar-dark" data-background-color="blue2">
 
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Dashboard</a>
     <ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
       <li class="nav-item dropdown hidden-caret">
         <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
