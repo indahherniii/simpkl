@@ -80,7 +80,7 @@ Route::get('/mahasiswa/instansi', function () {
 });
 
 Route::get('/mahasiswa/profile', function () {
-    return view('mahasiswa.profile.edit');
+    return view('mahasiswa.profile.index');
 });
 
 Route::get('/mahasiswa/profile/edit', function () {
